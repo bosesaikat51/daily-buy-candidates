@@ -1,0 +1,29 @@
+index_sources:
+  sp500: https://en.wikipedia.org/wiki/List_of_S%26P_500_companies
+  stoxx600: https://en.wikipedia.org/wiki/STOXX_Europe_600
+
+etfs:
+  - ticker: EQQQ.DE
+    name: Invesco Nasdaq-100 UCITS ETF
+    asset_class: ETF
+    region: EU
+  - ticker: IUSA.DE
+    name: iShares Core S&P 500 UCITS ETF
+    asset_class: ETF
+    region: EU
+  - ticker: VWCE.DE
+    name: Vanguard FTSE All-World UCITS ETF
+    asset_class: ETF
+    region: EU
+  - ticker: IS3N.DE
+    name: iShares Core MSCI EM IMI UCITS ETF
+    asset_class: ETF
+    region: EU
+  - ticker: SXR8.DE
+    name: iShares Core S&P 500 UCITS ETF (Acc)
+    asset_class: ETF
+    region: EU
+
+excluded_tickers:
+  # Tickers with chronically bad yfinance data — skip during screening.
+  - PLACEHOLDER

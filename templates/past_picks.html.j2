@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Past picks · Daily Buy Candidates</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="./">
+      <span class="brand-mark">DBC</span>
+      <span class="brand-name">Daily Buy Candidates</span>
+    </a>
+    <nav>
+      <a href="./">Today</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+
+  <section class="hero">
+    <div class="hero-eyebrow">Track record</div>
+    <h1>Past picks &amp; performance</h1>
+    <p class="hero-sub">Every day's picks archived. Current price is pulled live for a rough sense of how the screener's calls have held up. <strong>Not a backtest.</strong></p>
+  </section>
+
+  {% for day in days %}
+  <section class="picks-section">
+    <header class="section-header">
+      <h2>{{ day.date.strftime('%a · %d %b %Y') }}</h2>
+      <span class="section-meta">{{ day.summary }}</span>
+    </header>
+    <div class="picks-grid">
+      {% for p in day.picks %}
+      <article class="pick">
+        <div class="pick-head">
+          <div class="rank">{{ "%02d"|format(loop.index) }}</div>
+          <div class="identity">
+            <h3 class="ticker">{{ p.ticker }}</h3>
+            <p class="company">{{ p.name }}</p>
+          </div>
+          <span class="sector" data-sector="{{ p.sector }}">{{ p.sector }}</span>
+        </div>
+        <dl class="metrics">
+          <div><dt>Then</dt><dd>{{ p.then }}</dd></div>
+          <div><dt>Now</dt><dd>{{ p.now }}</dd></div>
+          <div><dt>Change</dt><dd class="{{ p.tone }}">{{ p.change }}</dd></div>
+          <div><dt>Score</dt><dd>{{ p.composite }}</dd></div>
+        </dl>
+      </article>
+      {% endfor %}
+    </div>
+  </section>
+  {% endfor %}
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="disclaimer"><strong>Not financial advice.</strong> Information only. Verify before acting.</p>
+  </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+[project]
+name = "daily-buy-candidates"
+version = "0.0.1"
+description = "Daily ranked buy ideas for Scalable / Trade Republic — quant picks narrated by Claude."
+requires-python = ">=3.12"
+dependencies = [
+    "anthropic>=0.40.0",
+    "feedparser>=6.0.0",
+    "jinja2>=3.1.0",
+    "pandas>=2.2.0",
+    "premailer>=3.10.0",
+    "pyarrow>=15.0.0",
+    "python-dotenv>=1.0.0",
+    "pyyaml>=6.0.0",
+    "yfinance>=0.2.40",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/buy_candidates"]

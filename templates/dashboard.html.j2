@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Daily Buy Candidates · {{ as_of.strftime('%d %b %Y') }}</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="./">
+      <span class="brand-mark">DBC</span>
+      <span class="brand-name">Daily Buy Candidates</span>
+    </a>
+    <nav>
+      <span class="as-of">As of <time datetime="{{ as_of.isoformat() }}">{{ as_of.strftime('%a · %d %b %Y · %H:%M %Z') }}</time></span>
+      <a href="past_picks.html">Past picks</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+
+  <section class="hero">
+    <div class="hero-eyebrow">Today's conviction set</div>
+    <h1>{{ hero_headline }}</h1>
+    <p class="hero-sub">Sector-relative composite ranking across S&amp;P&nbsp;500, STOXX&nbsp;600, and a curated ETF list. Narrated by Claude Opus&nbsp;4.7. <strong>Informational, not financial advice.</strong></p>
+  </section>
+
+  <section class="macro">
+    <div class="macro-label">Macro · Geopolitics</div>
+    <p class="macro-text">{{ macro_blurb }}</p>
+    <div class="macro-sources">Source · Reuters · FT · Handelsblatt</div>
+  </section>
+
+  {% for group in pick_groups %}
+  <section class="picks-section">
+    <header class="section-header">
+      <h2>{{ group.title }}</h2>
+      <span class="section-meta">{{ group.meta }}</span>
+    </header>
+    <div class="picks-grid">
+      {% for p in group.picks %}
+      <article class="pick">
+        <div class="pick-head">
+          <div class="rank">{{ "%02d"|format(loop.index) }}</div>
+          <div class="identity">
+            <h3 class="ticker">{{ p.ticker }}</h3>
+            <p class="company">{{ p.name }} · {{ p.currency }}</p>
+          </div>
+          <span class="sector" data-sector="{{ p.sector }}">{{ p.sector }}</span>
+        </div>
+        <div class="score-row">
+          <div class="composite">
+            <span class="composite-num">{{ p.composite }}</span>
+            <span class="composite-label">composite</span>
+          </div>
+          <ul class="score-bars">
+            {% for k, label in [('value','V'), ('quality','Q'), ('momentum','M'), ('yield','Y')] %}
+            <li><span>{{ label }}</span><div class="bar"><i style="width:{{ p.scores[k] }}%"></i></div><b>{{ p.scores[k] }}</b></li>
+            {% endfor %}
+          </ul>
+        </div>
+        <p class="narrative">{{ p.narrative }}</p>
+        <dl class="metrics">
+          {% for m in p.metrics %}
+          <div><dt>{{ m.label }}</dt><dd{% if m.tone %} class="{{ m.tone }}"{% endif %}>{{ m.value }}</dd></div>
+          {% endfor %}
+        </dl>
+        <div class="pick-foot">
+          <span class="close">{{ p.last_close }} <span class="chg {{ p.chg_tone }}">{{ p.chg }}</span></span>
+          <span>{{ p.exchange }}</span>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </section>
+  {% endfor %}
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="disclaimer">
+      <strong>Not financial advice.</strong>
+      This dashboard is generated automatically from public fundamental data and news headlines. It is an information aid for personal research, not a recommendation to buy, sell, or hold any security. Past performance does not predict future returns. Verify all data independently before acting.
+    </p>
+    <p class="meta">Generated {{ as_of.strftime('%d %b %Y %H:%M %Z') }} · daily-buy-candidates · Berlin</p>
+  </div>
+</footer>
+
+</body>
+</html>

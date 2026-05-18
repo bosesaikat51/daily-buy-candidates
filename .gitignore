@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+cache/
+*.parquet
+.DS_Store
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Obsidian vault config (each person's local view)
+vault/.obsidian/
