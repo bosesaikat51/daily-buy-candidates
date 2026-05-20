@@ -32,10 +32,20 @@
     <p class="hero-sub">Sector-relative composite ranking across S&amp;P&nbsp;500, STOXX&nbsp;600, and a curated ETF list. Narrated by Claude Opus&nbsp;4.7. <strong>Informational, not financial advice.</strong></p>
   </section>
 
+  <section class="synthesis">
+    <div class="synthesis-label">Strategist's read</div>
+    <div class="synthesis-body">
+      {% for para in synthesis_paragraphs %}
+      <p>{{ para }}</p>
+      {% endfor %}
+    </div>
+    <div class="synthesis-meta">{{ composition_summary }}</div>
+  </section>
+
   <section class="macro">
     <div class="macro-label">Macro · Geopolitics</div>
     <p class="macro-text">{{ macro_blurb }}</p>
-    <div class="macro-sources">Source · Reuters · FT · Handelsblatt</div>
+    <div class="macro-sources">Source · BBC · CNBC · FT · Handelsblatt</div>
   </section>
 
   {% for group in pick_groups %}

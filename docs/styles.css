@@ -143,6 +143,44 @@ h3 { font-size: 15px; margin: 0; }
   font-weight: 500;
 }
 
+/* ── Synthesis (strategist's read) ─────────────────────────────── */
+
+.synthesis {
+  margin: 16px 0 28px;
+  padding: 32px 36px;
+  background:
+    linear-gradient(135deg, rgba(251, 191, 36, 0.05), rgba(122, 162, 247, 0.04)),
+    var(--surface);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--warn);
+  border-radius: var(--radius);
+  position: relative;
+}
+.synthesis-label {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.16em;
+  color: var(--warn);
+  text-transform: uppercase;
+  margin-bottom: 14px;
+}
+.synthesis-body p {
+  margin: 0 0 14px;
+  font-size: 16px;
+  line-height: 1.75;
+  color: var(--text);
+}
+.synthesis-body p:last-child { margin-bottom: 0; }
+.synthesis-meta {
+  margin: 18px 0 0;
+  padding-top: 14px;
+  border-top: 1px solid var(--border);
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.05em;
+  color: var(--text-faint);
+}
+
 /* ── Macro section ─────────────────────────────────────────────── */
 
 .macro {
