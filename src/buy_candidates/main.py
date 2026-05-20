@@ -12,6 +12,7 @@ from __future__ import annotations
 
 import argparse
 import logging
+import os
 from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
@@ -164,7 +165,10 @@ def run(limit: int | None = None) -> Path:
         for t, row in top_etfs_df.iterrows()
     ]
 
-    client = Anthropic()
+    # A BOM or stray whitespace in the env var blows up httpx at
+    # header-encode time — see daily log 2026-05-21.
+    api_key = (os.environ.get("ANTHROPIC_API_KEY") or "").strip().lstrip("﻿")
+    client = Anthropic(api_key=api_key)
 
     log.info("fetching headlines + narrating %d stock picks...", len(stock_picks))
     for pick in stock_picks:
