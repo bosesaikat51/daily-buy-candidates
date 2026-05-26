@@ -1,0 +1,772 @@
+{
+  "as_of": "2026-05-26",
+  "universe_meta": {
+    "n_screened": 992,
+    "n_scored_stocks": 200,
+    "n_scored_etfs": 1,
+    "missing_sectors": [
+      "Utilities",
+      "Real Estate"
+    ]
+  },
+  "composition": {
+    "n_picks": 10,
+    "sector_breakdown": {
+      "Financial Services": 2,
+      "Healthcare": 2,
+      "Consumer Defensive": 1,
+      "Basic Materials": 1,
+      "Energy": 1,
+      "Consumer Cyclical": 1,
+      "Industrials": 1,
+      "Technology": 1
+    },
+    "region_breakdown": {
+      "US": 10
+    },
+    "avg_component_scores": {
+      "value": 84.5,
+      "quality": 59.4,
+      "momentum": 85.4,
+      "yield": 66.8
+    },
+    "composite_range": [
+      72.6,
+      85.1
+    ]
+  },
+  "macro_blurb": "European equities are digesting a string of single-name stories rather than a unifying macro driver: Wacker Chemie is divesting its Siltronic stake, reshuffling the German chemicals and semiconductor wafer space, while BP removed chair Albert Manifold following bullying claims, adding governance noise to the UK energy sector. In autos, Ferrari shares fell after the unveiling of its first fully electric vehicle, a notable signal for the European luxury EV transition. Stateside, attention sits on mega-cap tech with renewed SpaceX–Tesla merger chatter tied to a potential Nasdaq listing, and on Apple ahead of a key event next month after its run to record highs. On the political side, Trump cancelled a Camp David cabinet meeting citing weather, and his administration is publicly split over Pope Leo's AI warning.",
+  "synthesis": "Today's screen is a US value-and-momentum sweep, full stop. All 10 picks are US-listed despite 992 names screened, with average Value at the 84.5th percentile and Momentum at 85.4 — but Quality sits at just 59.4 and Yield at 66.8. No single sector dominates: Financial Services and Healthcare contribute two each; the rest are singletons across Consumer Defensive, Basic Materials, Energy, Consumer Cyclical, Industrials and Technology. The composite range is narrow (72.6–85.1), which says the model is finding the same archetype repeatedly: cheap multiples paired with three-month outperformance, rather than any one cyclical thesis.\n\nThe thread connecting CF, APA, DAL and DVA is the cheap-and-running trade — trailing P/Es of 10.7x, 8.7x, 11.6x and 18.8x against sector medians of 32.4x, 16.6x, 29.9x and 25.6x, all with three-month returns above 19% against negative sector medians. In Financial Services, EG and CINF are the opposite stylistically — EG at 0.92x book with a 28.7% FCF yield reads as a distressed-value tell, while CINF at 9.6x earnings with D/E of 5.6 is the clean-balance-sheet version. Macro is unusually quiet on cross-currents; the European single-name noise around BP and Wacker doesn't touch this book.\n\nThe outlier is FSLR — the lone Technology name, carried by a 37% three-month return and US solar policy as the unpriceable swing factor. The conspicuous absence is mega-cap Tech: zero representation despite the SpaceX–Tesla and Apple headlines driving US tape. Utilities and Real Estate are also absent entirely. Watch two things over the next fortnight: the Apple event, which could pull momentum capital back toward mega-cap Tech and away from this value cohort, and any US solar policy headline that re-rates FSLR in either direction.",
+  "stock_picks": [
+    {
+      "ticker": "MO",
+      "name": "Altria",
+      "region": "US",
+      "sector": "Consumer Defensive",
+      "currency": "USD",
+      "last_close": 72.37000274658203,
+      "composite": 85.1086691086691,
+      "raw_metrics": {
+        "trailing_pe": 15.108561,
+        "price_to_book": null,
+        "fcf_yield": 0.07068988807161725,
+        "roe": null,
+        "debt_to_equity": null,
+        "return_3m": 0.04823293434090559,
+        "dividend_yield": 5.74
+      },
+      "scores": {
+        "value": 78.97435897435898,
+        "quality": null,
+        "momentum": 93.33333333333333,
+        "yield": 85.71428571428571
+      },
+      "sector_medians": {
+        "trailing_pe": 15.77441,
+        "price_to_book": 2.8520057,
+        "fcf_yield": 0.05143062321005116,
+        "roe": 0.197045005,
+        "debt_to_equity": 129.258,
+        "return_3m": -0.0937058802977696,
+        "dividend_yield": 2.64,
+        "last_close": 89.8499984741211
+      },
+      "headlines": [
+        {
+          "title": "SPHD’s High Dividend Low Volatility Promise Has Returned Just 6 Percent Annualized While the S&P 500 Doubled It",
+          "url": "https://247wallst.com/investing/2026/05/26/sphds-high-dividend-low-volatility-promise-has-returned-just-6-percent-annualized-while-the-sp-500-doubled-it/",
+          "published": "2026-05-26T15:30:20+00:00",
+          "publisher": "24/7 Wall St."
+        },
+        {
+          "title": "Altria (MO) Upgraded to Buy: What Does It Mean for the Stock?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/altria-mo-upgraded-buy-does-160001012.html",
+          "published": "2026-05-25T16:00:01+00:00",
+          "publisher": "Zacks"
+        },
+        {
+          "title": "Is Altria Group (MO) Outperforming Other Consumer Staples Stocks This Year?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/altria-group-mo-outperforming-other-134002393.html",
+          "published": "2026-05-25T13:40:02+00:00",
+          "publisher": "Zacks"
+        },
+        {
+          "title": "Why Retirees Keep Buying This Dividend ETF After 22 Years of Payments",
+          "url": "https://247wallst.com/investing/2026/05/24/why-retirees-keep-buying-this-dividend-etf-after-22-years-of-payments/",
+          "published": "2026-05-24T18:00:53+00:00",
+          "publisher": "24/7 Wall St."
+        },
+        {
+          "title": "Is It Too Late To Consider Altria Group (MO) After Its Strong Recent Share Price Run?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/too-consider-altria-group-mo-111206482.html",
+          "published": "2026-05-24T11:12:06+00:00",
+          "publisher": "Simply Wall St."
+        }
+      ],
+      "narrative": "Altria stands out on cash returns: a 7.1% FCF yield versus the sector median 5.1%, a 5.74% dividend yield versus 2.64%, and a 3-month return of +4.8% while the sector median fell 9.4% — ranking in the top 7% on momentum and top 14% on yield. Headlines echo this, with Zacks flagging MO as outperforming consumer staples peers year-to-date.\n\nNear-term risk: with no reported ROE or book value, balance-sheet quality is opaque, and the structural decline in cigarette volumes remains the overhang behind that high yield."
+    },
+    {
+      "ticker": "CF",
+      "name": "CF Industries",
+      "region": "US",
+      "sector": "Basic Materials",
+      "currency": "USD",
+      "last_close": 119.16000366210938,
+      "composite": 82.39583333333333,
+      "raw_metrics": {
+        "trailing_pe": 10.735135,
+        "price_to_book": 3.426501,
+        "fcf_yield": 0.058797533736434274,
+        "roe": 0.273,
+        "debt_to_equity": 43.847,
+        "return_3m": 0.19710671655741852,
+        "dividend_yield": 1.64
+      },
+      "scores": {
+        "value": 79.16666666666667,
+        "quality": 81.25,
+        "momentum": 100.0,
+        "yield": 62.5
+      },
+      "sector_medians": {
+        "trailing_pe": 32.4358695,
+        "price_to_book": 2.830979,
+        "fcf_yield": 0.01684700309792418,
+        "roe": 0.087450001,
+        "debt_to_equity": 63.537000000000006,
+        "return_3m": -0.012223279885568095,
+        "dividend_yield": 1.595,
+        "last_close": 110.63500213623047
+      },
+      "headlines": [
+        {
+          "title": "BASF and Cromology Turn Waste Tires Into Sustainable Wall Paint",
+          "url": "https://finance.yahoo.com/sectors/energy/articles/basf-cromology-turn-waste-tires-155900543.html",
+          "published": "2026-05-26T15:59:00+00:00",
+          "publisher": "Zacks"
+        },
+        {
+          "title": "Eastman Chemical Certified by SCS Global for Commitment to Circularity",
+          "url": "https://finance.yahoo.com/sectors/energy/articles/eastman-chemical-certified-scs-global-125300393.html",
+          "published": "2026-05-25T12:53:00+00:00",
+          "publisher": "Zacks"
+        },
+        {
+          "title": "Is It Time To Reassess CF Industries Holdings (CF) After Its Strong Year To Date Run?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/time-reassess-cf-industries-holdings-071904123.html",
+          "published": "2026-05-23T07:19:04+00:00",
+          "publisher": "Simply Wall St."
+        },
+        {
+          "title": "BASFY Adds Certified Sulfite Grades to North American Portfolio",
+          "url": "https://finance.yahoo.com/sectors/energy/articles/basfy-adds-certified-sulfite-grades-141600592.html",
+          "published": "2026-05-22T14:16:00+00:00",
+          "publisher": "Zacks"
+        },
+        {
+          "title": "DOW Introduces New Simplified Cooling Management System",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/dow-introduces-simplified-cooling-management-141500667.html",
+          "published": "2026-05-22T14:15:00+00:00",
+          "publisher": "Zacks"
+        }
+      ],
+      "narrative": "CF screens cheap and strong across the board: a 10.7x P/E versus the sector median of 32.4x, ROE of 27.3% against 8.7%, and a 3-month return of +19.7% while the sector is slightly negative — top-decile on momentum and top quartile on value and quality. Simply Wall St. is already asking whether to reassess the YTD run, hinting the easy re-rating may be behind it. Main risk: nitrogen fertilizer pricing is cyclical, and a 3.4x P/B leaves little cushion if gas spreads compress."
+    },
+    {
+      "ticker": "EG",
+      "name": "Everest Group",
+      "region": "US",
+      "sector": "Financial Services",
+      "currency": "USD",
+      "last_close": 352.2099914550781,
+      "composite": 79.43055555555556,
+      "raw_metrics": {
+        "trailing_pe": 7.17332,
+        "price_to_book": 0.91674554,
+        "fcf_yield": 0.286510958314733,
+        "roe": 0.13822,
+        "debt_to_equity": 23.471,
+        "return_3m": 0.04983755613400698,
+        "dividend_yield": 2.27
+      },
+      "scores": {
+        "value": 97.77777777777779,
+        "quality": 60.83333333333333,
+        "momentum": 73.33333333333333,
+        "yield": 77.77777777777779
+      },
+      "sector_medians": {
+        "trailing_pe": 17.137205,
+        "price_to_book": 2.185212,
+        "fcf_yield": 0.0744899818275732,
+        "roe": 0.148075,
+        "debt_to_equity": 42.943,
+        "return_3m": 0.010201159721819342,
+        "dividend_yield": 1.92,
+        "last_close": 183.21499633789062
+      },
+      "headlines": [
+        {
+          "title": "AIG to Acquire Everest Colombia Unit, Expand Latin America Footprint",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/aig-acquire-everest-colombia-unit-183700871.html",
+          "published": "2026-05-20T18:37:00+00:00",
+          "publisher": "Zacks"
+        },
+        {
+          "title": "AIG agrees to buy Everest Group’s Colombia insurance unit",
+          "url": "https://www.lifeinsuranceinternational.com/news/aig-buy-everest-colombia-insurance/",
+          "published": "2026-05-20T09:39:13+00:00",
+          "publisher": "Life Insurance International"
+        },
+        {
+          "title": "Everest Group (EG) Valuation Check After Recent Steady Performance And Modest Undervaluation Estimate",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/everest-group-eg-valuation-check-011437574.html",
+          "published": "2026-05-19T01:14:37+00:00",
+          "publisher": "Simply Wall St."
+        },
+        {
+          "title": "1 Value Stock on Our Watchlist and 2 We Brush Off",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/1-value-stock-watchlist-2-054855314.html",
+          "published": "2026-05-18T05:48:55+00:00",
+          "publisher": "StockStory"
+        },
+        {
+          "title": "RGA Q1 Earnings & Revenues Top Estimates on Higher Investment Income",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/rga-q1-earnings-revenues-top-153700388.html",
+          "published": "2026-05-08T15:37:00+00:00",
+          "publisher": "Zacks"
+        }
+      ],
+      "narrative": "Everest screens as a deep-value outlier: 7.2x trailing earnings vs sector median 17.1x, 0.92x book vs 2.19x, and a 28.7% FCF yield vs 7.4% — ranking in the top 3% of Financial Services on Value. The pending AIG purchase of its Colombia unit signals active portfolio pruning. Risk: ROE of 13.8% trails the 14.8% sector median, and such a wide value gap typically reflects reserve or underwriting concerns the market is pricing in."
+    },
+    {
+      "ticker": "CNC",
+      "name": "Centene Corporation",
+      "region": "US",
+      "sector": "Healthcare",
+      "currency": "USD",
+      "last_close": 57.209999084472656,
+      "composite": 76.89075630252101,
+      "raw_metrics": {
+        "trailing_pe": null,
+        "price_to_book": 1.3183546,
+        "fcf_yield": 0.24238828862418296,
+        "roe": -0.26044,
+        "debt_to_equity": 76.049,
+        "return_3m": 0.27473256958358694,
+        "dividend_yield": null
+      },
+      "scores": {
+        "value": 100.0,
+        "quality": 21.428571428571427,
+        "momentum": 100.0,
+        "yield": null
+      },
+      "sector_medians": {
+        "trailing_pe": 25.5946565,
+        "price_to_book": 2.3097382,
+        "fcf_yield": 0.04601509771547577,
+        "roe": 0.10824,
+        "debt_to_equity": 71.599,
+        "return_3m": -0.08169599519250836,
+        "dividend_yield": 1.96,
+        "last_close": 147.75
+      },
+      "headlines": [
+        {
+          "title": "S&P 500 and Nasdaq 100 Climb to Record Highs on Tech Stock Strength",
+          "url": "https://www.barchart.com/story/news/2132344/s-p-500-and-nasdaq-100-climb-to-record-highs-on-tech-stock-strength",
+          "published": "2026-05-26T15:12:00+00:00",
+          "publisher": "Barchart"
+        },
+        {
+          "title": "Best Growth Stocks to Buy for May 26th",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/best-growth-stocks-buy-may-144400181.html",
+          "published": "2026-05-26T14:44:00+00:00",
+          "publisher": "Zacks"
+        },
+        {
+          "title": "The Bull Case For Centene (CNC) Could Change Following BofA’s Medicaid Margin Rebound Projections – Learn Why",
+          "url": "https://finance.yahoo.com/sectors/healthcare/articles/bull-case-centene-cnc-could-011536701.html",
+          "published": "2026-05-23T01:15:36+00:00",
+          "publisher": "Simply Wall St."
+        },
+        {
+          "title": "Centene, Molina Have 'Compelling' EPS Upside Potential as Medicaid Margins Likely Improve 2027 Onwards, BofA Says",
+          "url": "https://finance.yahoo.com/sectors/healthcare/articles/centene-molina-apos-compelling-apos-153546799.html",
+          "published": "2026-05-21T15:35:46+00:00",
+          "publisher": "MT Newswires"
+        },
+        {
+          "title": "3 Mid-Cap Stocks We Steer Clear Of",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/3-mid-cap-stocks-steer-222055875.html",
+          "published": "2026-05-20T22:20:55+00:00",
+          "publisher": "StockStory"
+        }
+      ],
+      "narrative": "Centene screens in the top percentile of healthcare on both Value and Momentum: a 24.2% FCF yield versus the sector median of 4.6%, paired with a +27% three-month return against a sector median of -8%. BofA's note on Medicaid margin rebound potential from 2027 onwards frames the bull case. The risk is operational: ROE of -26% versus a sector median of +11% reflects current earnings pressure that any margin recovery has yet to fix."
+    },
+    {
+      "ticker": "APA",
+      "name": "APA Corporation",
+      "region": "US",
+      "sector": "Energy",
+      "currency": "USD",
+      "last_close": 37.5,
+      "composite": 75.5,
+      "raw_metrics": {
+        "trailing_pe": 8.741259,
+        "price_to_book": 2.0529945,
+        "fcf_yield": 0.12759207273655995,
+        "roe": 0.26217,
+        "debt_to_equity": 61.314,
+        "return_3m": 0.23477112162459113,
+        "dividend_yield": 2.58
+      },
+      "scores": {
+        "value": 80.0,
+        "quality": 60.0,
+        "momentum": 100.0,
+        "yield": 50.0
+      },
+      "sector_medians": {
+        "trailing_pe": 16.5749785,
+        "price_to_book": 2.0205666,
+        "fcf_yield": 0.03836297907127813,
+        "roe": 0.142900005,
+        "debt_to_equity": 29.7335,
+        "return_3m": 0.024967924104921213,
+        "dividend_yield": 2.62,
+        "last_close": 105.56000137329102
+      },
+      "headlines": [
+        {
+          "title": "S&P 500 and Nasdaq 100 Climb to Record Highs on Tech Stock Strength",
+          "url": "https://www.barchart.com/story/news/2132344/s-p-500-and-nasdaq-100-climb-to-record-highs-on-tech-stock-strength",
+          "published": "2026-05-26T15:12:00+00:00",
+          "publisher": "Barchart"
+        },
+        {
+          "title": "Petrobras or APA: Which Oil Stock Offers Better Risk Reward?",
+          "url": "https://finance.yahoo.com/sectors/energy/articles/petrobras-apa-oil-stock-offers-130800162.html",
+          "published": "2026-05-26T13:08:00+00:00",
+          "publisher": "Zacks"
+        },
+        {
+          "title": "Alaska’s Oil Revival Sparks a New Energy Rush Into the Arctic",
+          "url": "https://finance.yahoo.com/news/alaskas-oil-revival-sparks-a-new-energy-rush-into-the-arctic-141500713.html",
+          "published": "2026-05-24T14:15:00+00:00",
+          "publisher": "Bloomberg"
+        },
+        {
+          "title": "2 S&P 500 Stocks on Our Buy List and 1 That Underwhelm",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/2-p-500-stocks-buy-082055285.html",
+          "published": "2026-05-23T08:20:55+00:00",
+          "publisher": "StockStory"
+        },
+        {
+          "title": "5 Non-Tech Thriving Nasdaq Stocks Enabling Its Northward Move in 2026",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/5-non-tech-thriving-nasdaq-121100327.html",
+          "published": "2026-05-22T12:11:00+00:00",
+          "publisher": "Zacks"
+        }
+      ],
+      "narrative": "APA screens cheap and is running hard: trailing P/E of 8.7x vs the sector median 16.6x, FCF yield of 12.8% vs 3.8%, and a 3-month return of 23% that ranks top of its sector on momentum. ROE of 26% also beats the 14% sector median. The Zacks Petrobras-vs-APA piece reflects active peer scrutiny. Main risk: debt/equity of 61 vs sector median 30 leaves the balance sheet exposed if crude rolls over."
+    },
+    {
+      "ticker": "BBY",
+      "name": "Best Buy",
+      "region": "US",
+      "sector": "Consumer Cyclical",
+      "currency": "USD",
+      "last_close": 63.220001220703125,
+      "composite": 75.37538699690401,
+      "raw_metrics": {
+        "trailing_pe": 12.543652,
+        "price_to_book": 4.4599648,
+        "fcf_yield": 0.06325003599719219,
+        "roe": 0.37041,
+        "debt_to_equity": 139.474,
+        "return_3m": 0.020171050110975308,
+        "dividend_yield": 6.23
+      },
+      "scores": {
+        "value": 81.42414860681114,
+        "quality": 58.82352941176471,
+        "momentum": 73.68421052631578,
+        "yield": 91.66666666666666
+      },
+      "sector_medians": {
+        "trailing_pe": 21.617627,
+        "price_to_book": 5.7829684,
+        "fcf_yield": 0.03736711350756122,
+        "roe": 0.30857,
+        "debt_to_equity": 139.474,
+        "return_3m": -0.07096348818947695,
+        "dividend_yield": 1.335,
+        "last_close": 139.13999938964844
+      },
+      "headlines": [
+        {
+          "title": "Best Buy's Q1 Results Poised to Show it Can Navigate Volatile Backdrop, UBS Says",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/best-buy-apos-q1-results-164730183.html",
+          "published": "2026-05-26T16:47:30+00:00",
+          "publisher": "MT Newswires"
+        },
+        {
+          "title": "DRAM: Is the fastest-growing ETF ever just another momentum trade?",
+          "url": "https://finance.yahoo.com/video/dram-is-the-fastest-growing-etf-ever-just-another-momentum-trade-142401888.html",
+          "published": "2026-05-26T14:24:01+00:00",
+          "publisher": "Yahoo Finance Video"
+        },
+        {
+          "title": "Is Best Buy’s (BBY) Student Tech Perks Masking Deeper Supply Chain And Leadership Questions?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/best-buy-bby-student-tech-002321178.html",
+          "published": "2026-05-23T00:23:21+00:00",
+          "publisher": "Simply Wall St."
+        },
+        {
+          "title": "Best Buy Poised for In-Line First-Quarter Comparable Sales, Wedbush Says",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/best-buy-poised-line-first-153123985.html",
+          "published": "2026-05-22T15:31:23+00:00",
+          "publisher": "MT Newswires"
+        },
+        {
+          "title": "Best Buy (BBY) Q1 Earnings Preview: What You Should Know Beyond the Headline Estimates",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/best-buy-bby-q1-earnings-131501328.html",
+          "published": "2026-05-22T13:15:01+00:00",
+          "publisher": "Zacks"
+        }
+      ],
+      "narrative": "BBY screens cheap and income-rich: 12.5x trailing earnings vs sector median 21.6x, a 6.23% dividend yield against the sector's 1.34%, and ranks in the top 9% of Consumer Cyclical on Yield. UBS and Wedbush both flag an in-line Q1 setup, suggesting near-term estimates aren't at risk. The main concern is Simply Wall St.'s read on supply chain and leadership questions, compounded by a price-to-book of 4.5x leaving little margin if consumer electronics demand softens."
+    },
+    {
+      "ticker": "DVA",
+      "name": "DaVita",
+      "region": "US",
+      "sector": "Healthcare",
+      "currency": "USD",
+      "last_close": 195.57000732421875,
+      "composite": 74.85598587260992,
+      "raw_metrics": {
+        "trailing_pe": 18.841042,
+        "price_to_book": null,
+        "fcf_yield": 0.07963753475355546,
+        "roe": 0.80981004,
+        "debt_to_equity": 1261.331,
+        "return_3m": 0.2512476231971468,
+        "dividend_yield": null
+      },
+      "scores": {
+        "value": 79.45652173913044,
+        "quality": 47.61904761904762,
+        "momentum": 95.65217391304348,
+        "yield": null
+      },
+      "sector_medians": {
+        "trailing_pe": 25.5946565,
+        "price_to_book": 2.3097382,
+        "fcf_yield": 0.04601509771547577,
+        "roe": 0.10824,
+        "debt_to_equity": 71.599,
+        "return_3m": -0.08169599519250836,
+        "dividend_yield": 1.96,
+        "last_close": 147.75
+      },
+      "headlines": [
+        {
+          "title": "Best Growth Stocks to Buy for May 26th",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/best-growth-stocks-buy-may-144400181.html",
+          "published": "2026-05-26T14:44:00+00:00",
+          "publisher": "Zacks"
+        },
+        {
+          "title": "Are Medical Stocks Lagging  Quest Diagnostics (DGX) This Year?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/medical-stocks-lagging-quest-diagnostics-134001316.html",
+          "published": "2026-05-26T13:40:01+00:00",
+          "publisher": "Zacks"
+        },
+        {
+          "title": "New Strong Buy Stocks for May 26th",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/strong-buy-stocks-may-26th-092400238.html",
+          "published": "2026-05-26T09:24:00+00:00",
+          "publisher": "Zacks"
+        },
+        {
+          "title": "Zacks.com featured highlights include DaVita, Integra LifeSciences, Braskem and LyondellBasell",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/zacks-com-featured-highlights-davita-074900158.html",
+          "published": "2026-05-26T07:49:00+00:00",
+          "publisher": "Zacks"
+        },
+        {
+          "title": "Is DaVita (DVA) Stock Undervalued Right Now?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/davita-dva-stock-undervalued-now-134005499.html",
+          "published": "2026-05-25T13:40:05+00:00",
+          "publisher": "Zacks"
+        }
+      ],
+      "narrative": "DVA ranks in the top 5% of Healthcare on momentum (+25% over 3 months vs sector median -8%) and screens cheap at 18.8x trailing earnings vs sector median 25.6x, with FCF yield of 8% nearly double the 4.6% sector median. Recent Zacks coverage flagging the stock as undervalued aligns with the value signal. The risk: debt-to-equity of 1,261 vs sector median 72 — leverage is extreme, making the 81% ROE less reassuring than it looks."
+    },
+    {
+      "ticker": "DAL",
+      "name": "Delta Air Lines",
+      "region": "US",
+      "sector": "Industrials",
+      "currency": "USD",
+      "last_close": 79.38999938964844,
+      "composite": 73.02857142857142,
+      "raw_metrics": {
+        "trailing_pe": 11.589781,
+        "price_to_book": 2.5459385,
+        "fcf_yield": 0.05930688503714207,
+        "roe": 0.2499,
+        "debt_to_equity": 105.021,
+        "return_3m": 0.20837143192245655,
+        "dividend_yield": 0.99
+      },
+      "scores": {
+        "value": 96.0,
+        "quality": 50.0,
+        "momentum": 92.0,
+        "yield": 26.190476190476193
+      },
+      "sector_medians": {
+        "trailing_pe": 29.944538,
+        "price_to_book": 6.3788147,
+        "fcf_yield": 0.023240392938753792,
+        "roe": 0.23684,
+        "debt_to_equity": 91.102,
+        "return_3m": -0.0396221124852395,
+        "dividend_yield": 1.23,
+        "last_close": 171.08999633789062
+      },
+      "headlines": [
+        {
+          "title": "Norwegian Cruise Line and Delta Shares Skyrocket, What You Need To Know",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/norwegian-cruise-line-delta-shares-205528671.html",
+          "published": "2026-05-26T20:55:28+00:00",
+          "publisher": "StockStory"
+        },
+        {
+          "title": "Why Some Experts Say Airline Profits—and Stocks—Are About To Take Off",
+          "url": "https://www.investopedia.com/why-these-analysts-see-airline-profits-and-stocks-taking-off-11983809",
+          "published": "2026-05-26T17:29:14+00:00",
+          "publisher": "Investopedia"
+        },
+        {
+          "title": "GE Benefits From Strong Order Growth: A Sign for More Upside?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/ge-benefits-strong-order-growth-163100949.html",
+          "published": "2026-05-26T16:31:00+00:00",
+          "publisher": "Zacks"
+        },
+        {
+          "title": "S&P 500 and Nasdaq 100 Climb to Record Highs on Tech Stock Strength",
+          "url": "https://www.barchart.com/story/news/2132344/s-p-500-and-nasdaq-100-climb-to-record-highs-on-tech-stock-strength",
+          "published": "2026-05-26T15:12:00+00:00",
+          "publisher": "Barchart"
+        },
+        {
+          "title": "Americans pick a new favorite airline for 2026",
+          "url": "https://www.thestreet.com/travel/americans-pick-a-new-favorite-airline-for-2026",
+          "published": "2026-05-26T15:07:00+00:00",
+          "publisher": "TheStreet"
+        }
+      ],
+      "narrative": "DAL screens as a value-and-momentum standout in Industrials: trailing P/E of 11.6x vs sector median 29.9x (96th percentile on value), P/B 2.5x vs 6.4x, and a 21% 3-month return vs -4% for the sector (92nd percentile). Recent coverage in Investopedia flagging airline profits \"about to take off\" reinforces the momentum read. The risk: debt-to-equity of 105 sits above the 91 sector median, leaving the balance sheet sensitive to any fuel or demand shock."
+    },
+    {
+      "ticker": "FSLR",
+      "name": "First Solar",
+      "region": "US",
+      "sector": "Technology",
+      "currency": "USD",
+      "last_close": 269.95001220703125,
+      "composite": 72.8689751762774,
+      "raw_metrics": {
+        "trailing_pe": 17.449903,
+        "price_to_book": 2.9363458,
+        "fcf_yield": 0.039565047305796436,
+        "roe": 0.18436001,
+        "debt_to_equity": 5.943,
+        "return_3m": 0.36891489038857994,
+        "dividend_yield": null
+      },
+      "scores": {
+        "value": 75.41050903119869,
+        "quality": 73.21428571428572,
+        "momentum": 68.96551724137932,
+        "yield": null
+      },
+      "sector_medians": {
+        "trailing_pe": 39.988537,
+        "price_to_book": 7.762216199999999,
+        "fcf_yield": 0.023663047188766724,
+        "roe": 0.20498,
+        "debt_to_equity": 56.931,
+        "return_3m": 0.1819492153515181,
+        "dividend_yield": 1.255,
+        "last_close": 239.36000061035156
+      },
+      "headlines": [
+        {
+          "title": "Hubbell, Rockwell Automation, and First Solar Shares Skyrocket, What You Need To Know",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/hubbell-rockwell-automation-first-solar-015655592.html",
+          "published": "2026-05-24T01:56:55+00:00",
+          "publisher": "StockStory"
+        },
+        {
+          "title": "Why First Solar (FSLR) Stock Is Trading Up Today",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/why-first-solar-fslr-stock-071655279.html",
+          "published": "2026-05-22T07:16:55+00:00",
+          "publisher": "StockStory"
+        },
+        {
+          "title": "Why First Solar (FSLR) Is Up 7.5% After New India Tracker Partnership With GameChange",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/why-first-solar-fslr-7-002739508.html",
+          "published": "2026-05-22T00:27:39+00:00",
+          "publisher": "Simply Wall St."
+        },
+        {
+          "title": "Stock Market Today, May 21: T1 Energy Rises on Surging Volume After Short Seller and Roth Capital Clash",
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/05/21/stock-market-today-may-21-t1-energy-rises-on-surging-volume-after-short-seller-and-roth-capital-clash/",
+          "published": "2026-05-21T22:38:50+00:00",
+          "publisher": "Motley Fool"
+        },
+        {
+          "title": "First Solar, Inc. (FSLR) is Attracting Investor Attention: Here is What You Should Know",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/first-solar-inc-fslr-attracting-130006958.html",
+          "published": "2026-05-20T13:00:06+00:00",
+          "publisher": "Zacks"
+        }
+      ],
+      "narrative": "First Solar trades at 17x earnings versus a sector median of 40x and 2.9x book versus 7.8x, ranking in the top quartile on Value while still delivering an 18.4% ROE and a 37% three-month return (vs sector 18%). The India tracker partnership with GameChange adds a concrete demand signal. The main caveat: debt-to-equity of 5.9 looks light, but policy risk around US solar subsidies remains the swing factor headlines can't price."
+    },
+    {
+      "ticker": "CINF",
+      "name": "Cincinnati Financial",
+      "region": "US",
+      "sector": "Financial Services",
+      "currency": "USD",
+      "last_close": 167.0399932861328,
+      "composite": 72.61805555555554,
+      "raw_metrics": {
+        "trailing_pe": 9.556064,
+        "price_to_book": 1.6433989,
+        "fcf_yield": 0.10636107754872218,
+        "roe": 0.18735,
+        "debt_to_equity": 5.626,
+        "return_3m": 0.018660797891945746,
+        "dividend_yield": 2.24
+      },
+      "scores": {
+        "value": 77.22222222222221,
+        "quality": 81.25,
+        "momentum": 56.666666666666664,
+        "yield": 74.07407407407408
+      },
+      "sector_medians": {
+        "trailing_pe": 17.137205,
+        "price_to_book": 2.185212,
+        "fcf_yield": 0.0744899818275732,
+        "roe": 0.148075,
+        "debt_to_equity": 42.943,
+        "return_3m": 0.010201159721819342,
+        "dividend_yield": 1.92,
+        "last_close": 183.21499633789062
+      },
+      "headlines": [
+        {
+          "title": "MCY Outperforms Industry in a Year: Time to Add It for Better Returns?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/mcy-outperforms-industry-time-add-161900721.html",
+          "published": "2026-05-25T16:19:00+00:00",
+          "publisher": "Zacks"
+        },
+        {
+          "title": "Cincinnati Financial Stock: Analyst Estimates & Ratings",
+          "url": "https://www.barchart.com/story/news/2115107/cincinnati-financial-stock-analyst-estimates-ratings",
+          "published": "2026-05-25T12:18:33+00:00",
+          "publisher": "Barchart"
+        },
+        {
+          "title": "Assessing Cincinnati Financial (CINF) Valuation After Q1 2026 Profit Rebound And Lower Catastrophe Losses",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/assessing-cincinnati-financial-cinf-valuation-161306805.html",
+          "published": "2026-05-15T16:13:06+00:00",
+          "publisher": "Simply Wall St."
+        },
+        {
+          "title": "Cincinnati Financial Gains Capital Flexibility With New Shelf Registration",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/cincinnati-financial-gains-capital-flexibility-043922990.html",
+          "published": "2026-05-15T04:39:22+00:00",
+          "publisher": "Simply Wall St."
+        },
+        {
+          "title": "Cincinnati Financial (CINF) Could Be a Great Choice",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/cincinnati-financial-cinf-could-great-154502306.html",
+          "published": "2026-05-12T15:45:02+00:00",
+          "publisher": "Zacks"
+        }
+      ],
+      "narrative": "CINF screens cheap and well-capitalized: 9.6x trailing earnings vs the sector median of 17.1x, an 18.7% ROE against 14.8%, and notably low leverage (D/E of 5.6 vs sector 42.9), placing it in the top quartile on both Value and Quality. The recent Simply Wall St. note flags a Q1 2026 profit rebound on lower catastrophe losses — which is exactly the swing factor to watch: as a P&C insurer, a single severe storm season can quickly reverse that earnings tailwind."
+    }
+  ],
+  "etf_picks": [
+    {
+      "ticker": "FISV",
+      "name": "Fiserv",
+      "region": "US",
+      "sector": NaN,
+      "currency": "USD",
+      "last_close": 55.61000061035156,
+      "composite": 100.0,
+      "raw_metrics": {
+        "trailing_pe": 9.425424,
+        "price_to_book": 1.1312503,
+        "fcf_yield": null,
+        "roe": null,
+        "debt_to_equity": null,
+        "return_3m": -0.10724033082347606,
+        "dividend_yield": null
+      },
+      "scores": {
+        "value": null,
+        "quality": null,
+        "momentum": 100.0,
+        "yield": null
+      },
+      "sector_medians": {},
+      "headlines": [
+        {
+          "title": "Fiserv (FISV) Partners With OpenAI to Integrate Frontier AI Across Financial Platforms",
+          "url": "https://finance.yahoo.com/sectors/technology/articles/fiserv-fisv-partners-openai-integrate-195420754.html",
+          "published": "2026-05-25T19:54:20+00:00",
+          "publisher": "Insider Monkey"
+        },
+        {
+          "title": "Winners And Losers Of Q1: Fiserv (NASDAQ:FISV) Vs The Rest Of The Payment Processing Stocks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/winners-losers-q1-fiserv-nasdaq-185255790.html",
+          "published": "2026-05-23T18:52:55+00:00",
+          "publisher": "StockStory"
+        },
+        {
+          "title": "Fiserv Targets ‘Constant Compounder’ Comeback as Clover, AI and Banking Bets Ramp",
+          "url": "https://www.marketbeat.com/instant-alerts/fiserv-targets-constant-compounder-comeback-as-clover-ai-and-banking-bets-ramp-2026-05-23/?utm_source=yahoofinance&utm_medium=yahoofinance",
+          "published": "2026-05-23T17:03:15+00:00",
+          "publisher": "MarketBeat"
+        },
+        {
+          "title": "How Fiserv’s New AI AgentOS and Portfolio Shift Will Impact Fiserv (FISV) Investors",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/fiserv-ai-agentos-portfolio-shift-082225790.html",
+          "published": "2026-05-22T08:22:25+00:00",
+          "publisher": "Simply Wall St."
+        },
+        {
+          "title": "Fiserv prunes non-core assets",
+          "url": "https://www.paymentsdive.com/news/fiserv-prunes-non-core-assets/820872/",
+          "published": "2026-05-21T10:39:00+00:00",
+          "publisher": "Payments Dive"
+        }
+      ],
+      "narrative": "Ranked on momentum + yield (no sector fundamentals for ETFs). 3M return -10.7% · yield rank 0/100."
+    }
+  ]
+}
