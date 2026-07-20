@@ -1,10 +1,12 @@
 name: Daily buy candidates
 
 on:
-  schedule:
-    # 21:30 UTC = 22:30 CET (winter) / 23:30 CEST (summer).
-    # Always after US market close (22:00 Berlin).
-    - cron: "30 21 * * *"
+  # Descheduled 2026-07-20 to reserve Anthropic API quota for the family
+  # expense planner. Uncomment the block below to resume daily runs.
+  # schedule:
+  #   # 21:30 UTC = 22:30 CET (winter) / 23:30 CEST (summer).
+  #   # Always after US market close (22:00 Berlin).
+  #   - cron: "30 21 * * *"
   workflow_dispatch:
 
 permissions:
